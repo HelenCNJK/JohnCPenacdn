@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
-      url.hostname = 'johncpena-abbyelliott245.b4a.run'
+      url.hostname = 'www.flower258.link'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
